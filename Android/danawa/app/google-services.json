@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023761826253",
+    "firebase_url": "https://graduate-project-3c7b4-default-rtdb.firebaseio.com",
+    "project_id": "graduate-project-3c7b4",
+    "storage_bucket": "graduate-project-3c7b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023761826253:android:3a3d77d7aedca97d278484",
+        "android_client_info": {
+          "package_name": "com.example.danawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023761826253-oh7bb7k3kg2crr77i92tc4rjsovbdm3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.danawa",
+            "certificate_hash": "6cf7552ca9e720af9ac76bf1fbd5f6b5f72fa2e2"
+          }
+        },
+        {
+          "client_id": "1023761826253-lb1tlaaap5u1sl9qptsknhb4ipt3eone.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChyS5MZ9gXuTN__BvBWdYfQvKdO_nyIfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023761826253-lb1tlaaap5u1sl9qptsknhb4ipt3eone.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

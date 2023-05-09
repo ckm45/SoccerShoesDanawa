@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="31dp"
+        android:id="@+id/menu_toolbar"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/div_line"
+        android:textColor="#000000"
+        android:background="#00ff0000"
+        android:layout_marginTop="15dp"
+        android:textSize='18sp'
+        android:textStyle="bold"
+        android:text="축구화 다나와" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/div_line"
+        android:layout_width="450dp"
+        android:layout_height="2dp"
+        app:cardBackgroundColor="#DCDCDC"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_first"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="58dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div_line">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/good_bg"
+                android:padding="1dp"
+                android:text="1. 사용하는 구장"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/radio_group1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radio_button_ag"
+                        android:layout_width="177dp"
+                        android:layout_height="match_parent"
+                        android:text="AG"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/radio_button_fg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="FG"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/radio_button_hg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="HG"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="AG:인조잔디 \nFG:천연잔디 \nHG:맨땅"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/good_bg"
+                android:padding="1dp"
+                android:text="2. 선호하는 포지션"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.120000005" />
+
+
+            <RadioGroup
+                android:id="@+id/radio_group2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp">
+
+                <RadioButton
+                    android:id="@+id/radio_button_fw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FW"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_mf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_df"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/good_bg"
+                android:padding="1dp"
+                android:text="3. 무게"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="가벼울수록 드리블이 잘되고\n무거울수록 안정감을 느낌"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radio_group3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/radio_button_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="매우 가벼움"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="가벼움"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="중간"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="약간 무거움"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_e"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="무거움"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/good_bg"
+                android:padding="1dp"
+                android:text="4. 희망 가격"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.120000005" />
+
+            <EditText
+                android:id="@+id/edittext_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:hint="희망하는 가격을 입력하세요"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="132dp"
+                android:layout_height="81dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/good_bg"
+                android:text="저장"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
