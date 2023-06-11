@@ -1,5 +1,47 @@
 # SoccerShoesDanawa
-
+## 프로젝트 멤버 
+<table align="center"> 
+  <tr> 
+    <td align="center"><a href="https://github.com/LSMJJAng"><img src="https://github.com/LSMJJAng/SW-Alogrithm-Study/assets/127660101/63643128-be90-410b-abc5-4dd285a761d5" width="300px;" alt="">
+      </a>
+    </td> 
+    <td align="center"><a href="https://github.com/ckm45">
+      <img src="https://github.com/LSMJJAng/danawa/assets/127660101/102754c0-3ac2-4057-815c-108cec9e9e1f" width="300px;" alt=""></a></td> <td align="center">
+    <a href="https://github.com/Ingsen123"><img src="https://github.com/LSMJJAng/danawa/assets/127660101/09cc336c-0c59-4c79-be44-3a1a98c3e974" width="300px;" alt="">
+    </a>
+    </td> 
+  </tr> 
+  <tr> 
+    <td align="center">
+      <a href="https://github.com/LSMJJAng"><b>이승민
+        </b>
+      </a>
+    </td> 
+    <td align="center">
+      <a href="https://github.com/ckm45">
+        <b>최경민</b>
+      </a>
+    </td> 
+    <td align="center">
+      <a href="https://github.com/Ingsen123">
+        <b>이인호</b>
+      </a>
+    </td> 
+  </tr> 
+  <tr> 
+    <td align="center"> 
+      1. 파이썬 추천 알고리즘 개발</br> 
+      2. Android studio Front-end 담당
+  </td> 
+    <td align="center"> 
+      1. 안드로이드 스튜디오 - Firebase - Python 연결</br> 
+      2. 파이썬 추천 알고리즘 개발 
+      </td> <td align="center"> 
+      1. 발 사이즈 측정 오픈소스 정제</br> 
+      2. 서버간 연결, front-end 보조 
+    </td> 
+   </tr> 
+ </table>
 ## 개발 목적
 
 - 축구화는 같은 사이즈에 다양한 발볼 크기 존재
